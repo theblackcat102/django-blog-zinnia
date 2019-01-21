@@ -4,6 +4,8 @@ Django Blog Zinnia |latest-version|
 
 |travis-develop| |coverage-develop|
 
+Note: This is a fork to fix bug in Django 1.8.0 in django urls reverse import and abstract entry import error. It will never support and tested in other versions of Django.
+
 Simple yet powerful and really extendable application for managing a blog
 within your Django Web site.
 
