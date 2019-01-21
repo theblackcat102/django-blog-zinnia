@@ -11,7 +11,7 @@ from django.contrib.syndication.views import Feed
 from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import get_object_or_404
 from django.template.defaultfilters import slugify
-from django.urls import NoReverseMatch
+from django.core.urlresolvers import NoReverseMatch
 from django.core.urlresolvers import reverse
 
 from django.utils.encoding import smart_text
