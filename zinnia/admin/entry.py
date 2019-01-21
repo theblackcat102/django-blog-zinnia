@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.contrib.sites.models import Site
 from django.db.models import Q
 from django.urls import NoReverseMatch
-from django.urls import reverse
+from django.core.urlresolvers import reverse
 from django.utils import timezone
 from django.utils.html import conditional_escape
 from django.utils.html import format_html

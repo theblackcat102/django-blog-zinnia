@@ -4,7 +4,8 @@ from __future__ import absolute_import
 from calendar import HTMLCalendar
 from datetime import date
 
-from django.urls import reverse
+from django.core.urlresolvers import reverse
+
 from django.utils.dates import MONTHS
 from django.utils.dates import WEEKDAYS_ABBR
 from django.utils.formats import date_format

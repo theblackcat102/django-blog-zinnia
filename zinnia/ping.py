@@ -10,7 +10,8 @@ from xmlrpc.client import ServerProxy
 from bs4 import BeautifulSoup
 
 from django.contrib.sites.models import Site
-from django.urls import reverse
+from django.core.urlresolvers import reverse
+
 
 from zinnia.flags import PINGBACK
 from zinnia.settings import PROTOCOL

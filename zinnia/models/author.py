@@ -2,7 +2,8 @@
 from django.apps import apps
 from django.conf import settings
 from django.db import models
-from django.urls import reverse
+from django.core.urlresolvers import reverse
+
 from django.utils.encoding import python_2_unicode_compatible
 
 from zinnia.managers import EntryRelatedPublishedManager

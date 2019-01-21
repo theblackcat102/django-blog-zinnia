@@ -5,7 +5,8 @@ from django.contrib.sites.models import Site
 from django.db import models
 from django.db.models import Q
 from django.template.defaultfilters import slugify
-from django.urls import reverse
+from django.core.urlresolvers import reverse
+
 from django.utils import timezone
 from django.utils.encoding import python_2_unicode_compatible
 from django.utils.html import strip_tags

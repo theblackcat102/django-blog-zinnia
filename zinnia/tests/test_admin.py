@@ -8,7 +8,8 @@ from django.contrib.sites.models import Site
 from django.test import RequestFactory
 from django.test import TestCase
 from django.test.utils import override_settings
-from django.urls import reverse
+from django.core.urlresolvers import reverse
+
 from django.utils import timezone
 from django.utils.translation import activate
 from django.utils.translation import deactivate

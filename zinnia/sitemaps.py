@@ -2,7 +2,8 @@
 from django.contrib.sitemaps import Sitemap
 from django.db.models import Count
 from django.db.models import Max
-from django.urls import reverse
+from django.core.urlresolvers import reverse
+
 
 from tagging.models import Tag
 from tagging.models import TaggedItem
